@@ -17,7 +17,6 @@ const Statistics = ({ good, neutral, bad, all, average }) => {
     </>)
 }
 
-
 const StatisticLine = (props) => {
   return (
     <table>
@@ -66,7 +65,6 @@ const App = () => {
       <div>
         <Statistics good={good} neutral={neutral} bad={bad} all={all} average={average} />
       </div>
-
     </>
   )
 }
